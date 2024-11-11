@@ -3,10 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Portfolio Management</title>
-    <script type="module" src="main.js"></script>
+    <title>Portfolio Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Portfolio Management System</h1>
+    <h2>Portfolio Value</h2>
+    <div id="portfolioValue"></div>
+
+    <h2>Portfolio Allocation</h2>
+    <table id="allocationTable">
+        <thead>
+            <tr>
+                <th>Asset Name</th>
+                <th>Asset Type</th>
+                <th>Allocation (%)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Transactions</h2>
+    <div id="transactions"></div>
+
+    <h2>Updated Portfolio Value</h2>
+    <div id="updatedPortfolioValue"></div>
+
+    <h2>Updated Portfolio Allocation</h2>
+    <table id="updatedAllocationTable">
+        <thead>
+            <tr>
+                <th>Asset Name</th>
+                <th>Asset Type</th>
+                <th>Allocation (%)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script type="module" src="main.js"></script>
 </body>
 </html>
