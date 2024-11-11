@@ -1,4 +1,4 @@
-// Task 3: Create transaction module with Transaction class
+// Task 3 Create transaction module with Transaction class
 import { assets, getAssetById } from './asset.js';
 
 // Creating the transaction class
